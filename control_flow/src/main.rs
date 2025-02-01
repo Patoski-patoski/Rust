@@ -1,3 +1,7 @@
+
 fn main() {
-    println!("Hello, world!");
+    let condition = true;
+    let num = if condition {5} else {6};
+
+    println!("The valueof number is: {num}");
 }
